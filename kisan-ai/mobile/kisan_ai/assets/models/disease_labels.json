@@ -1,0 +1,14 @@
+{
+  "labels": [
+    "Healthy",
+    "Early_Blight",
+    "Late_Blight",
+    "Leaf_Spot",
+    "Powdery_Mildew",
+    "Rust",
+    "Anthracnose",
+    "Downy_Mildew",
+    "Septoria_Leaf_Blotch",
+    "Black_Sigatoka"
+  ]
+}

@@ -1,0 +1,808 @@
+﻿Analyzing kisan_ai...                                           
+
+  error - Target of URI hasn't been generated: 'package:kisan_ai/core/database/app_database.g.dart' - lib\core\database\app_database.dart:7:6 - uri_has_not_been_generated
+warning - The getter doesn't override an inherited getter - lib\core\database\app_database.dart:21:11 - override_on_non_overriding_member
+  error - Target of URI hasn't been generated: 'package:kisan_ai/core/local_db/drift_database.g.dart' - lib\core\local_db\drift_database.dart:7:6 - uri_has_not_been_generated
+warning - The getter doesn't override an inherited getter - lib\core\local_db\drift_database.dart:38:11 - override_on_non_overriding_member
+warning - Unused import: 'dart:io' - lib\core\network\api_client.dart:1:8 - unused_import
+warning - Unused import: 'package:flutter/foundation.dart' - lib\core\network\api_client.dart:3:8 - unused_import
+warning - Unused import: 'package:kisan_ai/core/constants/api_constants.dart' - lib\core\network\api_client.dart:4:8 - unused_import
+warning - Unused import: 'package:kisan_ai/core/constants/app_constants.dart' - lib\core\network\api_client.dart:5:8 - unused_import
+   info - The private field _dio could be 'final' - lib\core\network\api_client.dart:9:7 - prefer_final_fields
+   info - The type of the right operand ('ConnectivityResult') isn't a subtype or a supertype of the left operand ('List<ConnectivityResult>') - lib\core\network\connectivity_service.dart:9:23 - unrelated_type_equality_checks
+   info - The type of the right operand ('ConnectivityResult') isn't a subtype or a supertype of the left operand ('List<ConnectivityResult>') - lib\core\network\connectivity_service.dart:13:18 - unrelated_type_equality_checks
+warning - Unused import: 'package:flutter/foundation.dart' - lib\core\offline_ai\ai_service_base.dart:1:8 - unused_import
+warning - Unused import: 'dart:io' - lib\core\offline_ai\ai_service_manager.dart:2:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:40:9 - use_super_parameters
+   info - Don't use 'BuildContext's across async gaps - lib\core\router\app_router.dart:58:45 - use_build_context_synchronously
+warning - Dead code - lib\core\router\app_router.dart:60:38 - dead_code
+warning - Dead code - lib\core\router\app_router.dart:67:16 - dead_code
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\router\app_router.dart:88:48 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:134:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:143:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:152:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:162:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:171:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:181:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:190:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:199:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:208:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:222:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:231:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:240:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:249:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:258:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:267:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:278:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:287:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:296:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:305:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:314:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:323:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:332:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:341:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:350:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:359:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:368:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:378:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:388:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:398:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:407:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:417:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\router\app_router.dart:427:9 - use_super_parameters
+warning - The value of the field '_apiClient' isn't used - lib\core\services\base_service.dart:5:19 - unused_field
+   info - Instances of 'Color' should be created using an 8-digit hexadecimal integer (such as '0xFFFFFFFF') - lib\core\theme\app_colors.dart:49:53 - use_full_hex_values_for_flutter_colors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\theme\app_decorations.dart:73:34 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\theme\app_decorations.dart:85:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\theme\app_decorations.dart:91:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\theme\app_decorations.dart:97:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\theme\app_decorations.dart:103:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\theme\app_decorations.dart:108:41 - deprecated_member_use
+warning - The value of the field '_ref' isn't used - lib\features\auth\repository\auth_repository.dart:12:13 - unused_field
+warning - The declaration '_getUserInfo' isn't referenced - lib\features\auth\repository\auth_repository.dart:149:17 - unused_element
+   info - The import of 'package:kisan_ai/core/theme/app_colors.dart' is unnecessary because all of the used elements are also provided by the import of 'package:kisan_ai/core/theme/app_theme.dart' - lib\features\auth\screens\login_screen.dart:5:8 - unnecessary_import
+   info - The import of 'package:kisan_ai/core/theme/app_typography.dart' is unnecessary because all of the used elements are also provided by the import of 'package:kisan_ai/core/theme/app_theme.dart' - lib\features\auth\screens\login_screen.dart:6:8 - unnecessary_import
+warning - Unused import: 'package:kisan_ai/shared/widgets/language_voice_widgets.dart' - lib\features\auth\screens\login_screen.dart:8:8 - unused_import
+warning - Unused import: '../models/auth_model.dart' - lib\features\auth\screens\login_screen.dart:10:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\auth\screens\login_screen.dart:13:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\screens\login_screen.dart:95:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\screens\login_screen.dart:194:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\screens\login_screen.dart:202:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\screens\login_screen.dart:209:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\screens\login_screen.dart:236:57 - deprecated_member_use
+   info - The import of 'package:kisan_ai/core/theme/app_colors.dart' is unnecessary because all of the used elements are also provided by the import of 'package:kisan_ai/core/theme/app_theme.dart' - lib\features\auth\screens\register_screen.dart:5:8 - unnecessary_import
+   info - The import of 'package:kisan_ai/core/theme/app_typography.dart' is unnecessary because all of the used elements are also provided by the import of 'package:kisan_ai/core/theme/app_theme.dart' - lib\features\auth\screens\register_screen.dart:6:8 - unnecessary_import
+warning - Unused import: 'package:kisan_ai/shared/widgets/language_voice_widgets.dart' - lib\features\auth\screens\register_screen.dart:8:8 - unused_import
+warning - Unused import: '../models/auth_model.dart' - lib\features\auth\screens\register_screen.dart:10:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\auth\screens\register_screen.dart:13:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\screens\register_screen.dart:117:50 - deprecated_member_use
+warning - Unused import: 'dart:convert' - lib\features\auth\services\auth_service.dart:1:8 - unused_import
+warning - Unused import: 'package:flutter_riverpod/flutter_riverpod.dart' - lib\features\auth\services\auth_service.dart:3:8 - unused_import
+warning - Unused import: 'package:kisan_ai/shared/widgets/offline_banner.dart' - lib\features\buyer_dashboard\screens\buyer_home_screen.dart:7:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\buyer_dashboard\screens\buyer_home_screen.dart:10:9 - use_super_parameters
+   info - Unnecessary use of string interpolation - lib\features\buyer_dashboard\screens\buyer_home_screen.dart:211:33 - unnecessary_string_interpolations
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\buyer_dashboard\screens\buyer_home_screen.dart:335:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\buyer_dashboard\screens\buyer_home_screen.dart:337:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\buyer_dashboard\screens\buyer_home_screen.dart:612:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\buyer_dashboard\screens\buyer_home_screen.dart:614:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\buyer_dashboard\screens\buyer_home_screen.dart:616:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\buyer_dashboard\screens\buyer_home_screen.dart:706:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\buyer_dashboard\screens\buyer_home_screen.dart:723:39 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\features\buyer_dashboard\screens\buyer_home_screen.dart:1030:9 - use_super_parameters
+warning - Unused import: 'dart:typed_data' - lib\features\chatbot\screens\chatbot_screen.dart:1:8 - unused_import
+warning - Unused import: 'package:kisan_ai/core/router/app_router.dart' - lib\features\chatbot\screens\chatbot_screen.dart:5:8 - unused_import
+warning - Unused import: 'package:kisan_ai/shared/widgets/kisan_widgets.dart' - lib\features\chatbot\screens\chatbot_screen.dart:8:8 - unused_import
+warning - Unused import: 'package:kisan_ai/shared/widgets/language_voice_widgets.dart' - lib\features\chatbot\screens\chatbot_screen.dart:9:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\chatbot\screens\chatbot_screen.dart:14:9 - use_super_parameters
+warning - The value of the local variable 'messages' isn't used - lib\features\chatbot\screens\chatbot_screen.dart:83:13 - unused_local_variable
+  error - Invalid constant value - lib\features\chatbot\screens\chatbot_screen.dart:217:30 - invalid_constant
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chatbot\screens\chatbot_screen.dart:362:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chatbot\screens\chatbot_screen.dart:510:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chatbot\screens\chatbot_screen.dart:511:55 - deprecated_member_use
+warning - Unused import: 'dart:convert' - lib\features\chatbot\services\chatbot_service.dart:1:8 - unused_import
+warning - Unused import: 'package:flutter_riverpod/flutter_riverpod.dart' - lib\features\chatbot\services\chatbot_service.dart:5:8 - unused_import
+warning - Unused import: '../../../../core/theme/app_theme.dart' - lib\features\disease\screens\disease_scan_screen.dart:3:8 - unused_import
+warning - Unused import: '../../../../shared/widgets/language_voice_widgets.dart' - lib\features\disease\screens\disease_scan_screen.dart:5:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\disease\screens\disease_scan_screen.dart:8:9 - use_super_parameters
+warning - Unused import: 'package:kisan_ai/core/router/app_router.dart' - lib\features\disease_detection\screens\disease_history_screen.dart:3:8 - unused_import
+warning - Unused import: 'package:kisan_ai/shared/widgets/kisan_widgets.dart' - lib\features\disease_detection\screens\disease_history_screen.dart:5:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\disease_detection\screens\disease_history_screen.dart:9:9 - use_super_parameters
+  error - Invalid constant value - lib\features\disease_detection\screens\disease_history_screen.dart:77:36 - invalid_constant
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\disease_detection\screens\disease_history_screen.dart:100:41 - deprecated_member_use
+warning - Unused import: 'dart:math' - lib\features\disease_detection\screens\disease_result_screen.dart:1:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\disease_detection\screens\disease_result_screen.dart:14:9 - use_super_parameters
+  error - Invalid constant value - lib\features\disease_detection\screens\disease_result_screen.dart:117:32 - invalid_constant
+   info - Don't use 'BuildContext's across async gaps - lib\features\disease_detection\screens\disease_result_screen.dart:164:60 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\disease_detection\screens\disease_result_screen.dart:210:22 - deprecated_member_use
+warning - Unused import: 'dart:math' - lib\features\disease_detection\screens\disease_scan_screen.dart:2:8 - unused_import
+warning - Unused import: 'package:kisan_ai/core/router/app_router.dart' - lib\features\disease_detection\screens\disease_scan_screen.dart:7:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\disease_detection\screens\disease_scan_screen.dart:13:9 - use_super_parameters
+   info - Don't use 'BuildContext's across async gaps - lib\features\disease_detection\screens\disease_scan_screen.dart:85:28 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\disease_detection\screens\disease_scan_screen.dart:173:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\disease_detection\screens\disease_scan_screen.dart:174:57 - deprecated_member_use
+   info - Unnecessary use of 'toList' in a spread - lib\features\disease_detection\screens\disease_scan_screen.dart:258:40 - unnecessary_to_list_in_spreads
+warning - Unused import: 'package:kisan_ai/shared/models/disease_model.dart' - lib\features\disease_detection\services\disease_detection_service.dart:6:8 - unused_import
+   info - Uses 'await' on an instance of 'Interpreter', which is not a subtype of 'Future' - lib\features\disease_detection\services\disease_detection_service.dart:28:22 - await_only_futures
+warning - Unused import: 'package:kisan_ai/core/router/app_router.dart' - lib\features\farm_report\screens\crop_suggestion_screen.dart:3:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\farm_report\screens\crop_suggestion_screen.dart:8:9 - use_super_parameters
+  error - Invalid constant value - lib\features\farm_report\screens\crop_suggestion_screen.dart:68:30 - invalid_constant
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\farm_report\screens\crop_suggestion_screen.dart:151:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\farm_report\screens\crop_suggestion_screen.dart:153:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\farm_report\screens\crop_suggestion_screen.dart:154:47 - deprecated_member_use
+warning - Unused import: 'package:kisan_ai/core/router/app_router.dart' - lib\features\farm_report\screens\farm_report_screen.dart:3:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\farm_report\screens\farm_report_screen.dart:8:9 - use_super_parameters
+warning - The value of the field '_isLoading' isn't used - lib\features\farm_report\screens\farm_report_screen.dart:15:8 - unused_field
+warning - Unused import: 'dart:convert' - lib\features\farm_report\services\farm_report_service.dart:1:8 - unused_import
+warning - Unused import: 'package:flutter_riverpod/flutter_riverpod.dart' - lib\features\farm_report\services\farm_report_service.dart:3:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\farmer_dashboard\screens\farmer_home_screen.dart:9:9 - use_super_parameters
+warning - Unused import: 'package:kisan_ai/core/router/app_router.dart' - lib\features\government_scheme\screens\application_confirmation_screen.dart:3:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\government_scheme\screens\application_confirmation_screen.dart:10:9 - use_super_parameters
+warning - Unused import: 'package:kisan_ai/features/government_scheme/services/government_scheme_service.dart' - lib\features\government_scheme\screens\government_scheme_application_form.dart:4:8 - unused_import
+warning - Unused import: 'package:kisan_ai/core/router/app_router.dart' - lib\features\government_scheme\screens\government_scheme_application_form.dart:5:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\government_scheme\screens\government_scheme_application_form.dart:13:9 - use_super_parameters
+   info - The private field _isLoading could be 'final' - lib\features\government_scheme\screens\government_scheme_application_form.dart:25:8 - prefer_final_fields
+warning - The value of the field '_fullName' isn't used - lib\features\government_scheme\screens\government_scheme_application_form.dart:29:10 - unused_field
+warning - The value of the field '_mobileNumber' isn't used - lib\features\government_scheme\screens\government_scheme_application_form.dart:30:10 - unused_field
+   info - The private field _email could be 'final' - lib\features\government_scheme\screens\government_scheme_application_form.dart:31:10 - prefer_final_fields
+warning - The value of the field '_email' isn't used - lib\features\government_scheme\screens\government_scheme_application_form.dart:31:10 - unused_field
+   info - The private field _address could be 'final' - lib\features\government_scheme\screens\government_scheme_application_form.dart:32:10 - prefer_final_fields
+warning - The value of the field '_address' isn't used - lib\features\government_scheme\screens\government_scheme_application_form.dart:32:10 - unused_field
+warning - The value of the field '_dateOfBirth' isn't used - lib\features\government_scheme\screens\government_scheme_application_form.dart:33:10 - unused_field
+   info - The private field _category could be 'final' - lib\features\government_scheme\screens\government_scheme_application_form.dart:35:10 - prefer_final_fields
+warning - The value of the field '_category' isn't used - lib\features\government_scheme\screens\government_scheme_application_form.dart:35:10 - unused_field
+   info - The private field _education could be 'final' - lib\features\government_scheme\screens\government_scheme_application_form.dart:36:10 - prefer_final_fields
+warning - The value of the field '_education' isn't used - lib\features\government_scheme\screens\government_scheme_application_form.dart:36:10 - unused_field
+   info - The private field _occupation could be 'final' - lib\features\government_scheme\screens\government_scheme_application_form.dart:37:10 - prefer_final_fields
+warning - The value of the field '_occupation' isn't used - lib\features\government_scheme\screens\government_scheme_application_form.dart:37:10 - unused_field
+warning - The value of the field '_annualIncome' isn't used - lib\features\government_scheme\screens\government_scheme_application_form.dart:38:10 - unused_field
+warning - The value of the field '_bankAccountNumber' isn't used - lib\features\government_scheme\screens\government_scheme_application_form.dart:39:10 - unused_field
+warning - The value of the field '_bankIFSC' isn't used - lib\features\government_scheme\screens\government_scheme_application_form.dart:40:10 - unused_field
+warning - The value of the field '_landArea' isn't used - lib\features\government_scheme\screens\government_scheme_application_form.dart:41:10 - unused_field
+warning - The value of the field '_primaryCrop' isn't used - lib\features\government_scheme\screens\government_scheme_application_form.dart:43:10 - unused_field
+warning - The value of the field '_experienceInFarming' isn't used - lib\features\government_scheme\screens\government_scheme_application_form.dart:44:10 - unused_field
+warning - Unused import: 'package:kisan_ai/features/government_scheme/services/government_scheme_service.dart' - lib\features\government_scheme\screens\government_scheme_detail_screen.dart:4:8 - unused_import
+warning - Unused import: 'package:kisan_ai/core/router/app_router.dart' - lib\features\government_scheme\screens\government_scheme_detail_screen.dart:5:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\government_scheme\screens\government_scheme_detail_screen.dart:13:9 - use_super_parameters
+  error - The constructor being called isn't a const constructor - lib\features\government_scheme\screens\government_scheme_detail_screen.dart:78:22 - const_with_non_const
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\government_scheme\screens\government_scheme_detail_screen.dart:107:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\government_scheme\screens\government_scheme_detail_screen.dart:108:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\government_scheme\screens\government_scheme_detail_screen.dart:112:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\government_scheme\screens\government_scheme_detail_screen.dart:113:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\government_scheme\screens\government_scheme_detail_screen.dart:126:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\government_scheme\screens\government_scheme_detail_screen.dart:127:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\government_scheme\screens\government_scheme_detail_screen.dart:166:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\government_scheme\screens\government_scheme_detail_screen.dart:274:47 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\features\government_scheme\screens\government_scheme_detail_screen.dart:447:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\government_scheme\screens\government_scheme_home_screen.dart:10:9 - use_super_parameters
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\features\government_scheme\screens\government_scheme_home_screen.dart:129:23 - deprecated_member_use
+warning - The operand can't be 'null', so the condition is always 'true' - lib\features\government_scheme\screens\government_scheme_home_screen.dart:184:33 - unnecessary_null_comparison
+  error - The constructor being called isn't a const constructor - lib\features\government_scheme\screens\government_scheme_home_screen.dart:221:26 - const_with_non_const
+  error - Invalid constant value - lib\features\government_scheme\screens\government_scheme_home_screen.dart:254:20 - invalid_constant
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\government_scheme\screens\government_scheme_home_screen.dart:285:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\government_scheme\screens\government_scheme_home_screen.dart:286:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\government_scheme\screens\government_scheme_home_screen.dart:290:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\government_scheme\screens\government_scheme_home_screen.dart:291:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\government_scheme\screens\government_scheme_home_screen.dart:304:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\government_scheme\screens\government_scheme_home_screen.dart:305:47 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\features\government_scheme\screens\government_scheme_home_screen.dart:410:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\government_scheme\screens\government_scheme_home_screen.dart:427:42 - deprecated_member_use
+warning - Unused import: 'dart:convert' - lib\features\government_scheme\services\government_scheme_service.dart:1:8 - unused_import
+warning - Unused import: 'package:flutter_riverpod/flutter_riverpod.dart' - lib\features\government_scheme\services\government_scheme_service.dart:3:8 - unused_import
+warning - Unused import: 'package:kisan_ai/features/input_management/fertilization/services/fertilization_service.dart' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:4:8 - unused_import
+warning - Unused import: 'package:kisan_ai/core/router/app_router.dart' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:5:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:13:9 - use_super_parameters
+  error - The constructor being called isn't a const constructor - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:58:22 - const_with_non_const
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:86:32 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:87:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:88:42 - deprecated_member_use
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:91:34 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:92:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:93:44 - deprecated_member_use
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:105:42 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:106:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:107:52 - deprecated_member_use
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:111:35 - undefined_getter
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:112:42 - undefined_getter
+  error - The getter 'applicationDate' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:124:57 - undefined_getter
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:126:48 - undefined_getter
+  error - The getter 'fertilizerType' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:151:36 - undefined_getter
+  error - The getter 'quantity' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:156:39 - undefined_getter
+  error - The getter 'unit' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:156:63 - undefined_getter
+  error - The getter 'area' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:161:39 - undefined_getter
+  error - The getter 'applicationDate' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:166:36 - undefined_getter
+  error - The getter 'scheduleId' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:204:32 - undefined_getter
+  error - The getter 'fertilizerType' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:210:32 - undefined_getter
+  error - The getter 'cropType' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:216:32 - undefined_getter
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:231:32 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:232:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:233:42 - deprecated_member_use
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:236:34 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:237:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:238:44 - deprecated_member_use
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:253:33 - undefined_getter
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:257:42 - undefined_getter
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:268:38 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:269:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:270:48 - deprecated_member_use
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:274:31 - undefined_getter
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:277:38 - undefined_getter
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\fertilization\screens\fertilization_application_detail_screen.dart:329:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:10:9 - use_super_parameters
+warning - The operand can't be 'null', so the condition is always 'true' - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:169:33 - unnecessary_null_comparison
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:216:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:218:41 - deprecated_member_use
+  error - The method 'fertilizationApplicationHistoryProvider' isn't defined for the type '_FertilizationHomeScreenState' - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:282:23 - undefined_method
+  error - The constructor being called isn't a const constructor - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:296:26 - const_with_non_const
+  error - Invalid constant value - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:329:20 - invalid_constant
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:347:28 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:348:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:349:38 - deprecated_member_use
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:352:30 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:353:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:354:40 - deprecated_member_use
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:366:36 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:367:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:368:46 - deprecated_member_use
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:372:29 - undefined_getter
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:375:36 - undefined_getter
+  error - The getter 'applicationDate' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:384:41 - undefined_getter
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:387:32 - undefined_getter
+  error - The getter 'fertilizerType' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:396:42 - undefined_getter
+  error - The getter 'quantity' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:401:38 - undefined_getter
+  error - The getter 'unit' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:401:62 - undefined_getter
+  error - The getter 'area' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:406:36 - undefined_getter
+  error - The constructor being called isn't a const constructor - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:469:26 - const_with_non_const
+  error - Invalid constant value - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:502:20 - invalid_constant
+  error - Expected to find ')' - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:512:8 - expected_token
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:521:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:522:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:526:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:527:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:540:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:541:47 - deprecated_member_use
+  error - Too many positional arguments: 0 expected, but 1 found - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:544:15 - extra_positional_arguments_could_be_named
+  error - The getter 'cropType' isn't defined for the type 'FertilizationSchedule' - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:567:33 - undefined_getter
+  error - The getter 'applicationRate' isn't defined for the type 'FertilizationSchedule' - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:572:45 - undefined_getter
+  error - The getter 'unit' isn't defined for the type 'FertilizationSchedule' - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:572:73 - undefined_getter
+  error - Invalid constant value - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:608:24 - invalid_constant
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:640:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\fertilization\screens\fertilization_home_screen.dart:682:9 - use_super_parameters
+warning - Unused import: 'package:kisan_ai/features/input_management/fertilization/services/fertilization_service.dart' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:4:8 - unused_import
+warning - Unused import: 'package:kisan_ai/core/router/app_router.dart' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:5:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:13:9 - use_super_parameters
+   info - The private field _isSaving could be 'final' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:26:8 - prefer_final_fields
+  error - The constructor being called isn't a const constructor - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:78:22 - const_with_non_const
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:107:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:108:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:112:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:113:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:126:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:127:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:166:54 - deprecated_member_use
+  error - The getter 'cropType' isn't defined for the type 'FertilizationSchedule' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:188:33 - undefined_getter
+  error - The getter 'applicationRate' isn't defined for the type 'FertilizationSchedule' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:193:36 - undefined_getter
+  error - The getter 'unit' isn't defined for the type 'FertilizationSchedule' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:193:64 - undefined_getter
+  error - The getter 'area' isn't defined for the type 'FertilizationSchedule' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:203:36 - undefined_getter
+  error - The constructor being called isn't a const constructor - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:252:26 - const_with_non_const
+  error - Invalid constant value - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:285:20 - invalid_constant
+  error - Expected to find ')' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:295:8 - expected_token
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:313:32 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:314:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:315:42 - deprecated_member_use
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:319:25 - undefined_getter
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:322:32 - undefined_getter
+  error - The getter 'applicationDate' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:329:41 - undefined_getter
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:332:32 - undefined_getter
+  error - The getter 'fertilizerType' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:341:42 - undefined_getter
+  error - The getter 'quantity' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:346:38 - undefined_getter
+  error - The getter 'unit' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:346:62 - undefined_getter
+  error - The getter 'area' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:351:36 - undefined_getter
+  error - The getter 'isExecuted' isn't defined for the type 'FertilizationApplication' - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:356:31 - undefined_getter
+warning - The value of the local variable 'farmId' isn't used - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:447:20 - unused_local_variable
+warning - The value of the local variable 'application' isn't used - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:451:13 - unused_local_variable
+warning - The value of 'refresh' should be used - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:466:13 - unused_result
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:484:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\fertilization\screens\fertilization_schedule_detail_screen.dart:540:9 - use_super_parameters
+warning - Unused import: 'package:kisan_ai/features/input_management/fertilization/services/fertilization_service.dart' - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:4:8 - unused_import
+warning - Unused import: 'package:kisan_ai/core/router/app_router.dart' - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:5:8 - unused_import
+warning - Unused import: 'package:kisan_ai/shared/widgets/kisan_widgets.dart' - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:7:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:13:9 - use_super_parameters
+warning - The value of the local variable 'scheduleAsync' isn't used - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:81:13 - unused_local_variable
+  error - The getter 'cropType' isn't defined for the type 'FertilizationSchedule' - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:154:30 - undefined_getter
+  error - The getter 'applicationRate' isn't defined for the type 'FertilizationSchedule' - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:155:37 - undefined_getter
+  error - The getter 'unit' isn't defined for the type 'FertilizationSchedule' - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:156:26 - undefined_getter
+  error - The getter 'area' isn't defined for the type 'FertilizationSchedule' - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:158:26 - undefined_getter
+  error - The argument type 'String?' can't be assigned to the parameter type 'String'.  - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:216:22 - argument_type_not_assignable
+warning - The operand can't be 'null', so the condition is always 'true' - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:334:29 - unnecessary_null_comparison
+warning - The operand can't be 'null', so the condition is always 'true' - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:338:31 - unnecessary_null_comparison
+  error - The named parameter 'amount' is required, but there's no corresponding argument - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:460:28 - missing_required_argument
+  error - The named parameter 'amountUnit' is required, but there's no corresponding argument - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:460:28 - missing_required_argument
+  error - The named parameter 'applicationMethod' is required, but there's no corresponding argument - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:460:28 - missing_required_argument
+  error - The named parameter 'farmId' is required, but there's no corresponding argument - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:460:28 - missing_required_argument
+  error - The named parameter 'title' is required, but there's no corresponding argument - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:460:28 - missing_required_argument
+  error - The named parameter 'cropType' isn't defined - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:463:9 - undefined_named_parameter
+  error - The named parameter 'applicationRate' isn't defined - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:464:9 - undefined_named_parameter
+  error - The named parameter 'unit' isn't defined - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:465:9 - undefined_named_parameter
+  error - The named parameter 'area' isn't defined - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:467:9 - undefined_named_parameter
+  error - The named parameter 'isExecuting' isn't defined - lib\features\input_management\fertilization\screens\fertilization_schedule_form_screen.dart:471:9 - undefined_named_parameter
+warning - Unused import: 'dart:convert' - lib\features\input_management\fertilization\services\fertilization_service.dart:1:8 - unused_import
+warning - Unused import: 'package:flutter_riverpod/flutter_riverpod.dart' - lib\features\input_management\fertilization\services\fertilization_service.dart:4:8 - unused_import
+  error - The method 'getExecutionHistory' isn't defined for the type 'FertilizationService' - lib\features\input_management\fertilization\state\fertilization_provider.dart:60:18 - undefined_method
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:10:9 - use_super_parameters
+   info - The private field _selectedDate could be 'final' - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:20:12 - prefer_final_fields
+  error - '_IrrigationHomeScreenState.build' ('Widget Function(BuildContext, WidgetRef)') isn't a valid override of 'State.build' ('Widget Function(BuildContext)') - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:23:10 - invalid_override
+warning - The operand can't be 'null', so the condition is always 'true' - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:194:33 - unnecessary_null_comparison
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:241:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:243:41 - deprecated_member_use
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:285:9 - sized_box_for_whitespace
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:330:37 - deprecated_member_use
+  error - The name 'SizedQown' isn't a class - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:348:19 - creation_with_non_type
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:361:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:362:50 - deprecated_member_use
+  error - Expected to find ')' - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:410:6 - expected_token
+  error - The constructor being called isn't a const constructor - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:454:26 - const_with_non_const
+  error - Invalid constant value - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:487:20 - invalid_constant
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:515:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:516:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:520:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:521:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:534:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:535:47 - deprecated_member_use
+  error - The getter 'cropType' isn't defined for the type 'IrrigationSchedule' - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:560:33 - undefined_getter
+  error - The getter 'area' isn't defined for the type 'IrrigationSchedule' - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:567:33 - undefined_getter
+  error - Invalid constant value - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:607:24 - invalid_constant
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\irrigation\screens\irrigation_home_screen.dart:629:9 - use_super_parameters
+warning - Unused import: 'dart:convert' - lib\features\input_management\irrigation\services\irrigation_service.dart:1:8 - unused_import
+warning - Unused import: 'package:flutter_riverpod/flutter_riverpod.dart' - lib\features\input_management\irrigation\services\irrigation_service.dart:4:8 - unused_import
+warning - Unused import: 'package:kisan_ai/features/input_management/pesticide/services/pesticide_service.dart' - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:4:8 - unused_import
+warning - Unused import: 'package:kisan_ai/core/router/app_router.dart' - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:5:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:13:9 - use_super_parameters
+  error - '_PesticideApplicationDetailScreenState.build' ('Widget Function(BuildContext, WidgetRef)') isn't a valid override of 'State.build' ('Widget Function(BuildContext)') - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:26:10 - invalid_override
+  error - The constructor being called isn't a const constructor - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:58:22 - const_with_non_const
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:87:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:88:42 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:92:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:93:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:106:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:107:52 - deprecated_member_use
+warning - Dead code - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:216:41 - dead_code
+warning - The left operand can't be null, so the right operand is never executed - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:216:44 - dead_null_aware_expression
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:231:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:232:42 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:236:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:237:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:268:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:269:48 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\pesticide\screens\pesticide_application_detail_screen.dart:328:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:10:9 - use_super_parameters
+warning - The operand can't be 'null', so the condition is always 'true' - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:169:33 - unnecessary_null_comparison
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:216:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:218:41 - deprecated_member_use
+  error - The constructor being called isn't a const constructor - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:296:26 - const_with_non_const
+  error - Invalid constant value - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:329:20 - invalid_constant
+  error - Expected to find ')' - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:339:8 - expected_token
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:348:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:349:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:353:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:354:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:367:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:368:46 - deprecated_member_use
+  error - The constructor being called isn't a const constructor - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:469:26 - const_with_non_const
+  error - Invalid constant value - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:502:20 - invalid_constant
+  error - Expected to find ')' - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:512:8 - expected_token
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:521:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:522:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:526:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:527:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:540:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:541:47 - deprecated_member_use
+  error - Too many positional arguments: 0 expected, but 1 found - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:544:15 - extra_positional_arguments_could_be_named
+  error - The getter 'cropType' isn't defined for the type 'PesticideSchedule' - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:567:33 - undefined_getter
+  error - The getter 'applicationRate' isn't defined for the type 'PesticideSchedule' - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:572:45 - undefined_getter
+  error - The getter 'unit' isn't defined for the type 'PesticideSchedule' - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:572:73 - undefined_getter
+  error - Invalid constant value - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:608:24 - invalid_constant
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:640:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\pesticide\screens\pesticide_home_screen.dart:682:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:13:9 - use_super_parameters
+   info - The private field _isSaving could be 'final' - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:26:8 - prefer_final_fields
+  error - '_PesticideScheduleDetailScreenState.build' ('Widget Function(BuildContext, WidgetRef)') isn't a valid override of 'State.build' ('Widget Function(BuildContext)') - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:29:10 - invalid_override
+  error - The constructor being called isn't a const constructor - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:78:22 - const_with_non_const
+  error - Expected to find '(' - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:104:26 - expected_token
+  error - The name 'Edge' isn't a class - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:104:26 - creation_with_non_type
+  error - Expected to find ',' - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:105:11 - expected_token
+  error - The argument for the named parameter 'padding' was already specified - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:105:11 - duplicate_named_argument
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:108:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:109:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:113:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:114:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:127:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:128:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:167:54 - deprecated_member_use
+  error - The getter 'cropType' isn't defined for the type 'PesticideSchedule' - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:189:33 - undefined_getter
+  error - The getter 'applicationRate' isn't defined for the type 'PesticideSchedule' - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:194:36 - undefined_getter
+  error - The getter 'unit' isn't defined for the type 'PesticideSchedule' - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:194:64 - undefined_getter
+  error - The getter 'area' isn't defined for the type 'PesticideSchedule' - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:204:36 - undefined_getter
+  error - The method 'pesticideExecutionHistoryProvider' isn't defined for the type '_PesticideScheduleDetailScreenState' - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:235:40 - undefined_method
+  error - The constructor being called isn't a const constructor - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:253:26 - const_with_non_const
+  error - Invalid constant value - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:286:20 - invalid_constant
+  error - Expected to find ')' - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:296:8 - expected_token
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:315:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:316:42 - deprecated_member_use
+  error - The getter 'isExecuting' isn't defined for the type 'PesticideSchedule' - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:409:23 - undefined_getter
+  error - The method 'OutlineButton' isn't defined for the type '_PesticideScheduleDetailScreenState' - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:417:9 - undefined_method
+  error - Undefined name 'OutlineButton' - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:421:18 - undefined_identifier
+warning - The value of the local variable 'farmId' isn't used - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:448:20 - unused_local_variable
+warning - The value of the local variable 'application' isn't used - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:452:13 - unused_local_variable
+warning - The value of 'refresh' should be used - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:467:13 - unused_result
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:485:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\pesticide\screens\pesticide_schedule_detail_screen.dart:541:9 - use_super_parameters
+warning - Unused import: 'package:kisan_ai/features/input_management/pesticide/services/pesticide_service.dart' - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:4:8 - unused_import
+warning - Unused import: 'package:kisan_ai/core/router/app_router.dart' - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:5:8 - unused_import
+warning - Unused import: 'package:kisan_ai/shared/widgets/kisan_widgets.dart' - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:7:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:13:9 - use_super_parameters
+warning - The value of the local variable 'scheduleAsync' isn't used - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:81:13 - unused_local_variable
+  error - '_PesticideScheduleFormScreenState.build' ('Widget Function(BuildContext, WidgetRef)') isn't a valid override of 'State.build' ('Widget Function(BuildContext)') - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:94:10 - invalid_override
+  error - The getter 'cropType' isn't defined for the type 'PesticideSchedule' - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:154:30 - undefined_getter
+  error - The getter 'applicationRate' isn't defined for the type 'PesticideSchedule' - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:155:37 - undefined_getter
+  error - The getter 'unit' isn't defined for the type 'PesticideSchedule' - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:156:26 - undefined_getter
+  error - The getter 'area' isn't defined for the type 'PesticideSchedule' - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:158:26 - undefined_getter
+  error - The argument type 'String?' can't be assigned to the parameter type 'String'.  - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:216:22 - argument_type_not_assignable
+warning - The operand can't be 'null', so the condition is always 'true' - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:334:29 - unnecessary_null_comparison
+warning - The operand can't be 'null', so the condition is always 'true' - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:338:31 - unnecessary_null_comparison
+  error - The named parameter 'amount' is required, but there's no corresponding argument - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:460:28 - missing_required_argument
+  error - The named parameter 'amountUnit' is required, but there's no corresponding argument - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:460:28 - missing_required_argument
+  error - The named parameter 'applicationMethod' is required, but there's no corresponding argument - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:460:28 - missing_required_argument
+  error - The named parameter 'farmId' is required, but there's no corresponding argument - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:460:28 - missing_required_argument
+  error - The named parameter 'safetyIntervalDays' is required, but there's no corresponding argument - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:460:28 - missing_required_argument
+  error - The named parameter 'targetPest' is required, but there's no corresponding argument - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:460:28 - missing_required_argument
+  error - The named parameter 'title' is required, but there's no corresponding argument - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:460:28 - missing_required_argument
+  error - The named parameter 'cropType' isn't defined - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:463:9 - undefined_named_parameter
+  error - The named parameter 'applicationRate' isn't defined - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:464:9 - undefined_named_parameter
+  error - The named parameter 'unit' isn't defined - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:465:9 - undefined_named_parameter
+  error - The named parameter 'area' isn't defined - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:467:9 - undefined_named_parameter
+  error - The named parameter 'isExecuting' isn't defined - lib\features\input_management\pesticide\screens\pesticide_schedule_form_screen.dart:471:9 - undefined_named_parameter
+warning - Unused import: 'dart:convert' - lib\features\input_management\pesticide\services\pesticide_service.dart:1:8 - unused_import
+warning - Unused import: 'package:flutter_riverpod/flutter_riverpod.dart' - lib\features\input_management\pesticide\services\pesticide_service.dart:4:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\market\screens\market_prices_screen.dart:8:9 - use_super_parameters
+   info - Unnecessary 'const' keyword - lib\features\market\screens\market_prices_screen.dart:40:11 - unnecessary_const
+  error - Invalid constant value - lib\features\market\screens\market_prices_screen.dart:41:11 - invalid_constant
+  error - The method '_SortOptions' isn't defined for the type 'MarketPricesScreen' - lib\features\market\screens\market_prices_screen.dart:41:11 - undefined_method
+  error - The values in a const list literal must be constants - lib\features\market\screens\market_prices_screen.dart:41:11 - non_constant_list_element
+   info - Unnecessary 'const' keyword - lib\features\market\screens\market_prices_screen.dart:92:9 - unnecessary_const
+  error - The named parameter 'label' isn't defined - lib\features\market\screens\market_prices_screen.dart:148:13 - undefined_named_parameter
+  error - The named parameter 'hint' isn't defined - lib\features\market\screens\market_prices_screen.dart:149:13 - undefined_named_parameter
+  error - Expected to find ')' - lib\features\market\screens\market_prices_screen.dart:164:9 - expected_token
+  error - Expected to find ';' - lib\features\market\screens\market_prices_screen.dart:165:8 - expected_token
+warning - Dead code - lib\features\market\screens\market_prices_screen.dart:166:5 - dead_code
+  error - Expected an identifier - lib\features\market\screens\market_prices_screen.dart:166:5 - missing_identifier
+  error - Unexpected text ';' - lib\features\market\screens\market_prices_screen.dart:166:5 - unexpected_token
+   info - Unnecessary empty statement - lib\features\market\screens\market_prices_screen.dart:166:6 - empty_statements
+  error - Classes can't be declared inside other classes - lib\features\market\screens\market_prices_screen.dart:169:3 - class_in_class
+  error - Expected a class member - lib\features\market\screens\market_prices_screen.dart:169:22 - expected_class_member
+   info - The variable name 'StatelessWidget' isn't a lowerCamelCase identifier - lib\features\market\screens\market_prices_screen.dart:169:30 - non_constant_identifier_names
+  error - Methods must have an explicit list of parameters - lib\features\market\screens\market_prices_screen.dart:169:30 - missing_method_parameters
+  error - The name '_SortOptions' isn't a class - lib\features\market\screens\market_prices_screen.dart:170:11 - creation_with_non_type
+warning - The declaration 'build' isn't referenced - lib\features\market\screens\market_prices_screen.dart:173:12 - unused_element
+  error - The method '_SortOption' isn't defined for the type '_FilterRow' - lib\features\market\screens\market_prices_screen.dart:182:13 - undefined_method
+  error - The method '_SortOption' isn't defined for the type '_FilterRow' - lib\features\market\screens\market_prices_screen.dart:186:13 - undefined_method
+  error - The method '_SortOption' isn't defined for the type '_FilterRow' - lib\features\market\screens\market_prices_screen.dart:190:13 - undefined_method
+  error - Classes can't be declared inside other classes - lib\features\market\screens\market_prices_screen.dart:200:3 - class_in_class
+  error - Expected a class member - lib\features\market\screens\market_prices_screen.dart:200:21 - expected_class_member
+   info - The variable name 'StatelessWidget' isn't a lowerCamelCase identifier - lib\features\market\screens\market_prices_screen.dart:200:29 - non_constant_identifier_names
+  error - Methods must have an explicit list of parameters - lib\features\market\screens\market_prices_screen.dart:200:29 - missing_method_parameters
+  error - The name 'StatelessWidget' is already defined - lib\features\market\screens\market_prices_screen.dart:200:29 - duplicate_definition
+  error - The name '_SortOption' isn't a class - lib\features\market\screens\market_prices_screen.dart:204:11 - creation_with_non_type
+  error - Expected to find ',' - lib\features\market\screens\market_prices_screen.dart:205:16 - expected_token
+  error - The getter 'label' isn't defined for the type '_FilterRow' - lib\features\market\screens\market_prices_screen.dart:205:21 - undefined_getter
+  error - Expected to find ',' - lib\features\market\screens\market_prices_screen.dart:206:16 - expected_token
+  error - The getter 'isSelected' isn't defined for the type '_FilterRow' - lib\features\market\screens\market_prices_screen.dart:206:21 - undefined_getter
+warning - The declaration 'build' isn't referenced - lib\features\market\screens\market_prices_screen.dart:210:12 - unused_element
+  error - The final variable 'label' can't be read because it's potentially unassigned at this point - lib\features\market\screens\market_prices_screen.dart:216:11 - read_potentially_unassigned_final
+  error - The final variable 'isSelected' can't be read because it's potentially unassigned at this point - lib\features\market\screens\market_prices_screen.dart:220:20 - read_potentially_unassigned_final
+warning - Unused import: 'package:kisan_ai/core/router/app_router.dart' - lib\features\market_price\screens\market_price_screen.dart:3:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\market_price\screens\market_price_screen.dart:9:9 - use_super_parameters
+   info - The private field _selectedDate could be 'final' - lib\features\market_price\screens\market_price_screen.dart:18:12 - prefer_final_fields
+warning - The value of the field '_selectedDate' isn't used - lib\features\market_price\screens\market_price_screen.dart:18:12 - unused_field
+  error - '_MarketPriceScreenState.build' ('Widget Function(BuildContext, WidgetRef)') isn't a valid override of 'State.build' ('Widget Function(BuildContext)') - lib\features\market_price\screens\market_price_screen.dart:109:10 - invalid_override
+   info - The type parameter name 'String' matches a visible type name - lib\features\market_price\screens\market_price_screen.dart:224:25 - avoid_types_as_parameter_names
+  error - The argument type 'String' can't be assigned to the parameter type 'String'.  - lib\features\market_price\screens\market_price_screen.dart:240:23 - argument_type_not_assignable
+  error - Invalid constant value - lib\features\market_price\screens\market_price_screen.dart:268:22 - invalid_constant
+warning - Unused import: 'dart:convert' - lib\features\market_price\services\market_price_service.dart:1:8 - unused_import
+warning - Unused import: 'package:flutter_riverpod/flutter_riverpod.dart' - lib\features\market_price\services\market_price_service.dart:3:8 - unused_import
+warning - Unused import: 'package:kisan_ai/features/marketplace/services/marketplace_service.dart' - lib\features\marketplace\screens\create_listing_screen.dart:8:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\marketplace\screens\create_listing_screen.dart:14:9 - use_super_parameters
+warning - The value of the field '_variety' isn't used - lib\features\marketplace\screens\create_listing_screen.dart:28:10 - unused_field
+   info - Don't use 'BuildContext's across async gaps - lib\features\marketplace\screens\create_listing_screen.dart:129:28 - use_build_context_synchronously
+  error - The named parameter 'currency' is required, but there's no corresponding argument - lib\features\marketplace\screens\create_listing_screen.dart:158:25 - missing_required_argument
+  error - The named parameter 'district' is required, but there's no corresponding argument - lib\features\marketplace\screens\create_listing_screen.dart:158:25 - missing_required_argument
+  error - The named parameter 'isFeatured' is required, but there's no corresponding argument - lib\features\marketplace\screens\create_listing_screen.dart:158:25 - missing_required_argument
+  error - The named parameter 'isNegotiable' is required, but there's no corresponding argument - lib\features\marketplace\screens\create_listing_screen.dart:158:25 - missing_required_argument
+  error - The named parameter 'postedAt' is required, but there's no corresponding argument - lib\features\marketplace\screens\create_listing_screen.dart:158:25 - missing_required_argument
+  error - The named parameter 'pricePerUnit' is required, but there's no corresponding argument - lib\features\marketplace\screens\create_listing_screen.dart:158:25 - missing_required_argument
+  error - The named parameter 'productName' is required, but there's no corresponding argument - lib\features\marketplace\screens\create_listing_screen.dart:158:25 - missing_required_argument
+  error - The named parameter 'qualityGrade' is required, but there's no corresponding argument - lib\features\marketplace\screens\create_listing_screen.dart:158:25 - missing_required_argument
+  error - The named parameter 'quantity' is required, but there's no corresponding argument - lib\features\marketplace\screens\create_listing_screen.dart:158:25 - missing_required_argument
+  error - The named parameter 'state' is required, but there's no corresponding argument - lib\features\marketplace\screens\create_listing_screen.dart:158:25 - missing_required_argument
+  error - The named parameter 'status' is required, but there's no corresponding argument - lib\features\marketplace\screens\create_listing_screen.dart:158:25 - missing_required_argument
+  error - The named parameter 'subcategory' is required, but there's no corresponding argument - lib\features\marketplace\screens\create_listing_screen.dart:158:25 - missing_required_argument
+  error - The named parameter 'variety' is required, but there's no corresponding argument - lib\features\marketplace\screens\create_listing_screen.dart:158:25 - missing_required_argument
+  error - The named parameter 'price' isn't defined - lib\features\marketplace\screens\create_listing_screen.dart:162:11 - undefined_named_parameter
+  error - The named parameter 'isOrganic' isn't defined - lib\features\marketplace\screens\create_listing_screen.dart:168:11 - undefined_named_parameter
+  error - The named parameter 'quantityAvailable' isn't defined - lib\features\marketplace\screens\create_listing_screen.dart:170:11 - undefined_named_parameter
+  error - The named parameter 'totalReviews' isn't defined - lib\features\marketplace\screens\create_listing_screen.dart:171:11 - undefined_named_parameter
+  error - The named parameter 'averageRating' isn't defined - lib\features\marketplace\screens\create_listing_screen.dart:172:11 - undefined_named_parameter
+  error - The named parameter 'imageUrl' isn't defined - lib\features\marketplace\screens\create_listing_screen.dart:173:11 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\marketplace\screens\create_listing_screen.dart:175:11 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\marketplace\screens\create_listing_screen.dart:176:11 - undefined_named_parameter
+warning - The value of the local variable 'createdListing' isn't used - lib\features\marketplace\screens\create_listing_screen.dart:181:15 - unused_local_variable
+  error - Expected an identifier - lib\features\marketplace\screens\create_listing_screen.dart:420:15 - missing_identifier
+  error - Expected to find ']' - lib\features\marketplace\screens\create_listing_screen.dart:420:15 - expected_token
+  error - Invalid constant value - lib\features\marketplace\screens\create_listing_screen.dart:437:18 - invalid_constant
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\features\marketplace\screens\create_listing_screen.dart:652:11 - deprecated_member_use
+warning - Unused import: 'dart:typed_data' - lib\features\marketplace\screens\listing_detail_screen.dart:1:8 - unused_import
+warning - Unused import: 'package:kisan_ai/core/router/app_router.dart' - lib\features\marketplace\screens\listing_detail_screen.dart:5:8 - unused_import
+warning - Unused import: 'package:kisan_ai/features/marketplace/state/marketplace_provider.dart' - lib\features\marketplace\screens\listing_detail_screen.dart:7:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\marketplace\screens\listing_detail_screen.dart:14:9 - use_super_parameters
+  error - '_ListingDetailScreenState.build' ('Widget Function(BuildContext, WidgetRef)') isn't a valid override of 'State.build' ('Widget Function(BuildContext)') - lib\features\marketplace\screens\listing_detail_screen.dart:29:10 - invalid_override
+  error - The method 'listingProvider' isn't defined for the type '_ListingDetailScreenState' - lib\features\marketplace\screens\listing_detail_screen.dart:30:36 - undefined_method
+  error - The getter 'price' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\listing_detail_screen.dart:181:29 - undefined_getter
+  error - The getter 'isOrganic' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\listing_detail_screen.dart:185:34 - undefined_getter
+  error - The getter 'isOrganic' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\listing_detail_screen.dart:195:32 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\listing_detail_screen.dart:196:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\listing_detail_screen.dart:197:46 - deprecated_member_use
+  error - The getter 'isOrganic' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\listing_detail_screen.dart:200:34 - undefined_getter
+  error - The getter 'isOrganic' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\listing_detail_screen.dart:206:25 - undefined_getter
+  error - The getter 'isOrganic' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\listing_detail_screen.dart:210:34 - undefined_getter
+  error - The getter 'quantityAvailable' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\listing_detail_screen.dart:220:33 - undefined_getter
+  error - The getter 'averageRating' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\listing_detail_screen.dart:238:27 - undefined_getter
+  error - The getter 'totalReviews' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\listing_detail_screen.dart:246:31 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\listing_detail_screen.dart:258:43 - deprecated_member_use
+  error - The getter 'views' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\listing_detail_screen.dart:262:28 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\listing_detail_screen.dart:273:47 - deprecated_member_use
+  error - The getter 'inquiries' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\listing_detail_screen.dart:277:28 - undefined_getter
+  error - Invalid constant value - lib\features\marketplace\screens\listing_detail_screen.dart:289:18 - invalid_constant
+  error - The getter 'additionalInfo' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\listing_detail_screen.dart:298:21 - undefined_getter
+  error - Invalid constant value - lib\features\marketplace\screens\listing_detail_screen.dart:304:24 - invalid_constant
+  error - The getter 'additionalInfo' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\listing_detail_screen.dart:310:35 - undefined_getter
+  error - Invalid constant value - lib\features\marketplace\screens\listing_detail_screen.dart:329:18 - invalid_constant
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\listing_detail_screen.dart:337:41 - deprecated_member_use
+  error - Invalid constant value - lib\features\marketplace\screens\listing_detail_screen.dart:376:24 - invalid_constant
+  error - The named parameter 'backgroundColor' isn't defined - lib\features\marketplace\screens\listing_detail_screen.dart:490:17 - undefined_named_parameter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\listing_detail_screen.dart:491:43 - deprecated_member_use
+  error - The named parameter 'borderRadius' isn't defined - lib\features\marketplace\screens\listing_detail_screen.dart:492:17 - undefined_named_parameter
+   info - Parameter 'key' could be a super parameter - lib\features\marketplace\screens\marketplace_home_screen.dart:10:9 - use_super_parameters
+  error - The getter 'future' isn't defined for the type 'AsyncValue<List<MarketplaceListing>>' - lib\features\marketplace\screens\marketplace_home_screen.dart:34:52 - undefined_getter
+  error - The getter 'future' isn't defined for the type 'AsyncValue<List<String>>' - lib\features\marketplace\screens\marketplace_home_screen.dart:38:48 - undefined_getter
+  error - '_MarketplaceHomeScreenState.build' ('Widget Function(BuildContext, WidgetRef)') isn't a valid override of 'State.build' ('Widget Function(BuildContext)') - lib\features\marketplace\screens\marketplace_home_screen.dart:58:10 - invalid_override
+  error - Undefined name 'goRouterProvider' - lib\features\marketplace\screens\marketplace_home_screen.dart:105:44 - undefined_identifier
+  error - The getter 'purple' isn't defined for the type 'AppColors' - lib\features\marketplace\screens\marketplace_home_screen.dart:118:39 - undefined_getter
+  error - Invalid constant value - lib\features\marketplace\screens\marketplace_home_screen.dart:128:30 - invalid_constant
+  error - Invalid constant value - lib\features\marketplace\screens\marketplace_home_screen.dart:155:30 - invalid_constant
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\marketplace_home_screen.dart:205:26 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\marketplace_home_screen.dart:208:28 - deprecated_member_use
+  error - The getter 'fruit_water' isn't defined for the type 'Icons' - lib\features\marketplace\screens\marketplace_home_screen.dart:240:32 - undefined_getter
+  error - The getter 'spice' isn't defined for the type 'Icons' - lib\features\marketplace\screens\marketplace_home_screen.dart:242:32 - undefined_getter
+  error - The method 'withOpacity' can't be unconditionally invoked because the receiver can be 'null' - lib\features\marketplace\screens\marketplace_home_screen.dart:259:44 - unchecked_use_of_nullable_value
+  error - The method 'withOpacity' can't be unconditionally invoked because the receiver can be 'null' - lib\features\marketplace\screens\marketplace_home_screen.dart:262:46 - unchecked_use_of_nullable_value
+  error - The argument type 'Object?' can't be assigned to the parameter type 'IconData?'.  - lib\features\marketplace\screens\marketplace_home_screen.dart:266:15 - argument_type_not_assignable
+  error - The argument type 'Object?' can't be assigned to the parameter type 'Color?'.  - lib\features\marketplace\screens\marketplace_home_screen.dart:268:22 - argument_type_not_assignable
+  error - The method 'withOpacity' can't be unconditionally invoked because the receiver can be 'null' - lib\features\marketplace\screens\marketplace_home_screen.dart:286:44 - unchecked_use_of_nullable_value
+  error - The argument type 'Object?' can't be assigned to the parameter type 'Color?'.  - lib\features\marketplace\screens\marketplace_home_screen.dart:294:24 - argument_type_not_assignable
+  error - The getter 'isOrganic' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\marketplace_home_screen.dart:307:24 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\marketplace_home_screen.dart:308:37 - deprecated_member_use
+  error - The getter 'isOrganic' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\marketplace_home_screen.dart:312:26 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\marketplace_home_screen.dart:313:39 - deprecated_member_use
+  error - The getter 'imageUrl' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\marketplace_home_screen.dart:323:28 - undefined_getter
+  error - The getter 'imageUrl' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\marketplace_home_screen.dart:325:29 - undefined_getter
+  error - The getter 'price' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\marketplace_home_screen.dart:346:31 - undefined_getter
+  error - The getter 'isOrganic' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\marketplace_home_screen.dart:350:36 - undefined_getter
+  error - The getter 'averageRating' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\marketplace_home_screen.dart:401:31 - undefined_getter
+  error - The getter 'totalReviews' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\marketplace_home_screen.dart:409:35 - undefined_getter
+  error - Undefined name 'goRouterProvider' - lib\features\marketplace\screens\marketplace_home_screen.dart:435:26 - undefined_identifier
+warning - Unused import: 'package:kisan_ai/shared/widgets/language_voice_widgets.dart' - lib\features\marketplace\screens\marketplace_screen.dart:5:8 - unused_import
+warning - Unused import: 'package:kisan_ai/core/theme/app_theme.dart' - lib\features\marketplace\screens\marketplace_screen.dart:6:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\marketplace_screen.dart:25:39 - deprecated_member_use
+  error - The getter 'imageUrl' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\marketplace_screen.dart:114:30 - undefined_getter
+  error - The getter 'imageUrl' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\marketplace_screen.dart:116:31 - undefined_getter
+  error - The getter 'price' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\marketplace_screen.dart:141:33 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\marketplace_screen.dart:177:60 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\features\marketplace\screens\marketplace_screen.dart:212:9 - use_super_parameters
+  error - '_MarketplaceScreenState.build' ('Widget Function(BuildContext, WidgetRef)') isn't a valid override of 'State.build' ('Widget Function(BuildContext)') - lib\features\marketplace\screens\marketplace_screen.dart:223:10 - invalid_override
+  error - Invalid constant value - lib\features\marketplace\screens\marketplace_screen.dart:377:22 - invalid_constant
+  error - The constructor being called isn't a const constructor - lib\features\marketplace\screens\marketplace_screen.dart:389:28 - const_with_non_const
+  error - The named parameter 'currency' is required, but there's no corresponding argument - lib\features\marketplace\screens\marketplace_screen.dart:389:28 - missing_required_argument
+  error - The named parameter 'district' is required, but there's no corresponding argument - lib\features\marketplace\screens\marketplace_screen.dart:389:28 - missing_required_argument
+  error - The named parameter 'images' is required, but there's no corresponding argument - lib\features\marketplace\screens\marketplace_screen.dart:389:28 - missing_required_argument
+  error - The named parameter 'isFeatured' is required, but there's no corresponding argument - lib\features\marketplace\screens\marketplace_screen.dart:389:28 - missing_required_argument
+  error - The named parameter 'isNegotiable' is required, but there's no corresponding argument - lib\features\marketplace\screens\marketplace_screen.dart:389:28 - missing_required_argument
+  error - The named parameter 'postedAt' is required, but there's no corresponding argument - lib\features\marketplace\screens\marketplace_screen.dart:389:28 - missing_required_argument
+  error - The named parameter 'pricePerUnit' is required, but there's no corresponding argument - lib\features\marketplace\screens\marketplace_screen.dart:389:28 - missing_required_argument
+  error - The named parameter 'productName' is required, but there's no corresponding argument - lib\features\marketplace\screens\marketplace_screen.dart:389:28 - missing_required_argument
+  error - The named parameter 'qualityGrade' is required, but there's no corresponding argument - lib\features\marketplace\screens\marketplace_screen.dart:389:28 - missing_required_argument
+  error - The named parameter 'quantity' is required, but there's no corresponding argument - lib\features\marketplace\screens\marketplace_screen.dart:389:28 - missing_required_argument
+  error - The named parameter 'state' is required, but there's no corresponding argument - lib\features\marketplace\screens\marketplace_screen.dart:389:28 - missing_required_argument
+  error - The named parameter 'status' is required, but there's no corresponding argument - lib\features\marketplace\screens\marketplace_screen.dart:389:28 - missing_required_argument
+  error - The named parameter 'subcategory' is required, but there's no corresponding argument - lib\features\marketplace\screens\marketplace_screen.dart:389:28 - missing_required_argument
+  error - The named parameter 'variety' is required, but there's no corresponding argument - lib\features\marketplace\screens\marketplace_screen.dart:389:28 - missing_required_argument
+  error - The named parameter 'price' isn't defined - lib\features\marketplace\screens\marketplace_screen.dart:393:21 - undefined_named_parameter
+  error - The named parameter 'isOrganic' isn't defined - lib\features\marketplace\screens\marketplace_screen.dart:399:21 - undefined_named_parameter
+  error - The named parameter 'quantityAvailable' isn't defined - lib\features\marketplace\screens\marketplace_screen.dart:401:21 - undefined_named_parameter
+  error - The named parameter 'totalReviews' isn't defined - lib\features\marketplace\screens\marketplace_screen.dart:402:21 - undefined_named_parameter
+  error - The named parameter 'averageRating' isn't defined - lib\features\marketplace\screens\marketplace_screen.dart:403:21 - undefined_named_parameter
+  error - The named parameter 'imageUrl' isn't defined - lib\features\marketplace\screens\marketplace_screen.dart:404:21 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\marketplace\screens\marketplace_screen.dart:405:21 - undefined_named_parameter
+  error - The constructor being called isn't a const constructor - lib\features\marketplace\screens\marketplace_screen.dart:405:32 - const_with_non_const
+  error - The named parameter 'updatedAt' isn't defined - lib\features\marketplace\screens\marketplace_screen.dart:406:21 - undefined_named_parameter
+  error - The constructor being called isn't a const constructor - lib\features\marketplace\screens\marketplace_screen.dart:406:32 - const_with_non_const
+   info - Parameter 'key' could be a super parameter - lib\features\marketplace\screens\my_listings_screen.dart:11:9 - use_super_parameters
+  error - '_MyListingsScreenState.build' ('Widget Function(BuildContext, WidgetRef)') isn't a valid override of 'State.build' ('Widget Function(BuildContext)') - lib\features\marketplace\screens\my_listings_screen.dart:21:10 - invalid_override
+  error - The method 'userListingsProvider' isn't defined for the type '_MyListingsScreenState' - lib\features\marketplace\screens\my_listings_screen.dart:57:41 - undefined_method
+  error - Invalid constant value - lib\features\marketplace\screens\my_listings_screen.dart:113:20 - invalid_constant
+  error - Methods can't be invoked in constant expressions - lib\features\marketplace\screens\my_listings_screen.dart:118:20 - const_eval_method_invocation
+  error - The getter 'isActive' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\my_listings_screen.dart:187:24 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\my_listings_screen.dart:188:37 - deprecated_member_use
+  error - The getter 'successGreen' isn't defined for the type 'AppColors' - lib\features\marketplace\screens\my_listings_screen.dart:190:29 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\my_listings_screen.dart:191:39 - deprecated_member_use
+  error - The getter 'isActive' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\my_listings_screen.dart:194:26 - undefined_getter
+  error - The getter 'successGreen' isn't defined for the type 'AppColors' - lib\features\marketplace\screens\my_listings_screen.dart:197:31 - undefined_getter
+  error - The getter 'imageUrl' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\my_listings_screen.dart:206:26 - undefined_getter
+  error - The getter 'imageUrl' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\my_listings_screen.dart:208:27 - undefined_getter
+  error - The getter 'isActive' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\my_listings_screen.dart:220:28 - undefined_getter
+  error - The getter 'successGreen' isn't defined for the type 'AppColors' - lib\features\marketplace\screens\my_listings_screen.dart:223:33 - undefined_getter
+  error - The getter 'price' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\my_listings_screen.dart:231:27 - undefined_getter
+  error - The getter 'isActive' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\my_listings_screen.dart:234:32 - undefined_getter
+  error - The getter 'successGreen' isn't defined for the type 'AppColors' - lib\features\marketplace\screens\my_listings_screen.dart:237:37 - undefined_getter
+  error - The getter 'isActive' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\my_listings_screen.dart:257:32 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\my_listings_screen.dart:258:45 - deprecated_member_use
+  error - The getter 'successGreen' isn't defined for the type 'AppColors' - lib\features\marketplace\screens\my_listings_screen.dart:260:37 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\my_listings_screen.dart:261:47 - deprecated_member_use
+  error - The getter 'isActive' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\my_listings_screen.dart:265:25 - undefined_getter
+  error - The getter 'isActive' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\my_listings_screen.dart:273:34 - undefined_getter
+  error - The getter 'successGreen' isn't defined for the type 'AppColors' - lib\features\marketplace\screens\my_listings_screen.dart:276:39 - undefined_getter
+  error - The getter 'views' isn't defined for the type 'MarketplaceListing' - lib\features\marketplace\screens\my_listings_screen.dart:283:30 - undefined_getter
+  error - Undefined name 'goRouterProvider' - lib\features\marketplace\screens\my_listings_screen.dart:292:20 - undefined_identifier
+warning - Unused import: 'package:kisan_ai/core/router/app_router.dart' - lib\features\marketplace\screens\orders_screen.dart:3:8 - unused_import
+warning - Unused import: 'package:kisan_ai/shared/widgets/kisan_widgets.dart' - lib\features\marketplace\screens\orders_screen.dart:6:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\marketplace\screens\orders_screen.dart:11:9 - use_super_parameters
+  error - '_OrdersScreenState.build' ('Widget Function(BuildContext, WidgetRef)') isn't a valid override of 'State.build' ('Widget Function(BuildContext)') - lib\features\marketplace\screens\orders_screen.dart:21:10 - invalid_override
+  error - Invalid constant value - lib\features\marketplace\screens\orders_screen.dart:186:20 - invalid_constant
+  error - Methods can't be invoked in constant expressions - lib\features\marketplace\screens\orders_screen.dart:191:20 - const_eval_method_invocation
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\orders_screen.dart:210:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\orders_screen.dart:235:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\orders_screen.dart:260:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\orders_screen.dart:262:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\orders_screen.dart:264:46 - deprecated_member_use
+  error - The getter 'productImages' isn't defined for the type 'Order' - lib\features\marketplace\screens\orders_screen.dart:282:24 - undefined_getter
+  error - The getter 'productImages' isn't defined for the type 'Order' - lib\features\marketplace\screens\orders_screen.dart:283:23 - undefined_getter
+  error - The getter 'productImages' isn't defined for the type 'Order' - lib\features\marketplace\screens\orders_screen.dart:285:29 - undefined_getter
+  error - The getter 'productImages' isn't defined for the type 'Order' - lib\features\marketplace\screens\orders_screen.dart:293:29 - undefined_getter
+  error - The getter 'buyerName' isn't defined for the type 'Order' - lib\features\marketplace\screens\orders_screen.dart:323:31 - undefined_getter
+  error - The getter 'buyerLocation' isn't defined for the type 'Order' - lib\features\marketplace\screens\orders_screen.dart:330:27 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\orders_screen.dart:367:22 - deprecated_member_use
+  error - The getter 'cancellationReason' isn't defined for the type 'Order' - lib\features\marketplace\screens\orders_screen.dart:379:54 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\marketplace\screens\orders_screen.dart:385:46 - deprecated_member_use
+  error - The getter 'cancellationReason' isn't defined for the type 'Order' - lib\features\marketplace\screens\orders_screen.dart:389:36 - undefined_getter
+warning - Unused import: 'dart:convert' - lib\features\marketplace\services\marketplace_service.dart:1:8 - unused_import
+warning - Unused import: 'package:flutter_riverpod/flutter_riverpod.dart' - lib\features\marketplace\services\marketplace_service.dart:3:8 - unused_import
+warning - Unused import: 'package:kisan_ai/core/router/app_router.dart' - lib\features\ndvi\screens\ndvi_screen.dart:5:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\ndvi\screens\ndvi_screen.dart:11:9 - use_super_parameters
+  error - '_NDVIScreenState.build' ('Widget Function(BuildContext, WidgetRef)') isn't a valid override of 'State.build' ('Widget Function(BuildContext)') - lib\features\ndvi\screens\ndvi_screen.dart:90:10 - invalid_override
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\features\ndvi\screens\ndvi_screen.dart:119:27 - sized_box_for_whitespace
+  error - The named parameter 'textAlign' isn't defined - lib\features\ndvi\screens\ndvi_screen.dart:154:35 - undefined_named_parameter
+  error - A value of type 'String' can't be assigned to a parameter of type 'Widget' in a const constructor - lib\features\ndvi\screens\ndvi_screen.dart:174:41 - const_constructor_param_type_mismatch
+  error - The argument type 'String' can't be assigned to the parameter type 'Widget'.  - lib\features\ndvi\screens\ndvi_screen.dart:175:45 - argument_type_not_assignable
+  error - A value of type 'String' can't be assigned to a parameter of type 'Widget' in a const constructor - lib\features\ndvi\screens\ndvi_screen.dart:192:41 - const_constructor_param_type_mismatch
+  error - The argument type 'String' can't be assigned to the parameter type 'Widget'.  - lib\features\ndvi\screens\ndvi_screen.dart:193:45 - argument_type_not_assignable
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\features\ndvi\screens\ndvi_screen.dart:252:11 - sized_box_for_whitespace
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\ndvi\screens\ndvi_screen.dart:272:58 - deprecated_member_use
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\features\ndvi\screens\ndvi_screen.dart:321:11 - sized_box_for_whitespace
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\ndvi\screens\ndvi_screen.dart:349:58 - deprecated_member_use
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\features\ndvi\screens\ndvi_screen.dart:410:13 - sized_box_for_whitespace
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\ndvi\screens\ndvi_screen.dart:445:39 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\features\onboarding\screens\crop_selection_screen.dart:9:9 - use_super_parameters
+  error - '_CropSelectionScreenState.build' ('Widget Function(BuildContext, WidgetRef)') isn't a valid override of 'State.build' ('Widget Function(BuildContext)') - lib\features\onboarding\screens\crop_selection_screen.dart:64:10 - invalid_override
+  error - Invalid constant value - lib\features\onboarding\screens\crop_selection_screen.dart:88:36 - invalid_constant
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\onboarding\screens\crop_selection_screen.dart:97:68 - deprecated_member_use
+  error - Invalid constant value - lib\features\onboarding\screens\crop_selection_screen.dart:120:40 - invalid_constant
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\onboarding\screens\crop_selection_screen.dart:122:66 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\features\onboarding\screens\land_profile_screen.dart:8:9 - use_super_parameters
+  error - '_LandProfileScreenState.build' ('Widget Function(BuildContext, WidgetRef)') isn't a valid override of 'State.build' ('Widget Function(BuildContext)') - lib\features\onboarding\screens\land_profile_screen.dart:29:10 - invalid_override
+  error - The name 'OfflineBanner' isn't a class - lib\features\onboarding\screens\land_profile_screen.dart:35:19 - creation_with_non_type
+  error - Invalid constant value - lib\features\onboarding\screens\land_profile_screen.dart:53:36 - invalid_constant
+  error - The named parameter 'label' isn't defined - lib\features\onboarding\screens\land_profile_screen.dart:57:29 - undefined_named_parameter
+  error - The argument type 'IconButton' can't be assigned to the parameter type 'IconData?'.  - lib\features\onboarding\screens\land_profile_screen.dart:61:41 - argument_type_not_assignable
+  error - Invalid constant value - lib\features\onboarding\screens\land_profile_screen.dart:71:36 - invalid_constant
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\onboarding\screens\land_profile_screen.dart:80:68 - deprecated_member_use
+  error - Invalid constant value - lib\features\onboarding\screens\land_profile_screen.dart:104:36 - invalid_constant
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\onboarding\screens\land_profile_screen.dart:113:68 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\features\onboarding\screens\location_pin_screen.dart:14:9 - use_super_parameters
+   info - The private field _polygonPoints could be 'final' - lib\features\onboarding\screens\location_pin_screen.dart:22:16 - prefer_final_fields
+warning - The declaration '_clearPolygon' isn't referenced - lib\features\onboarding\screens\location_pin_screen.dart:98:8 - unused_element
+  error - Invalid constant value - lib\features\onboarding\screens\location_pin_screen.dart:144:26 - invalid_constant
+  error - '_LocationPinScreenState.build' ('Widget Function(BuildContext, WidgetRef)') isn't a valid override of 'State.build' ('Widget Function(BuildContext)') - lib\features\onboarding\screens\location_pin_screen.dart:185:10 - invalid_override
+  error - Invalid constant value - lib\features\onboarding\screens\location_pin_screen.dart:209:28 - invalid_constant
+  error - Invalid constant value - lib\features\onboarding\screens\location_pin_screen.dart:215:28 - invalid_constant
+  error - The named parameter 'color' isn't defined - lib\features\onboarding\screens\location_pin_screen.dart:216:21 - undefined_named_parameter
+  error - The named parameter 'center' isn't defined - lib\features\onboarding\screens\location_pin_screen.dart:232:17 - undefined_named_parameter
+  error - The named parameter 'zoom' isn't defined - lib\features\onboarding\screens\location_pin_screen.dart:233:17 - undefined_named_parameter
+  error - The name 'NotCachingNetworkTileProvider' isn't a class - lib\features\onboarding\screens\location_pin_screen.dart:246:39 - creation_with_non_type
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\onboarding\screens\location_pin_screen.dart:263:54 - deprecated_member_use
+  error - The named parameter 'child' is required, but there's no corresponding argument - lib\features\onboarding\screens\location_pin_screen.dart:270:58 - missing_required_argument
+  error - The named parameter 'pointAlignment' isn't defined - lib\features\onboarding\screens\location_pin_screen.dart:274:25 - undefined_named_parameter
+  error - Undefined name 'AnchorPos' - lib\features\onboarding\screens\location_pin_screen.dart:274:41 - undefined_identifier
+  error - The named parameter 'builder' isn't defined - lib\features\onboarding\screens\location_pin_screen.dart:277:25 - undefined_named_parameter
+warning - Unused import: 'dart:convert' - lib\features\order\services\order_service.dart:1:8 - unused_import
+warning - Unused import: 'package:flutter_riverpod/flutter_riverpod.dart' - lib\features\order\services\order_service.dart:3:8 - unused_import
+warning - Unused import: '../../../../shared/widgets/language_voice_widgets.dart' - lib\features\profile\screens\profile_screen.dart:4:8 - unused_import
+warning - Unused import: '../../../../core/theme/app_theme.dart' - lib\features\profile\screens\profile_screen.dart:5:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\profile\screens\profile_screen.dart:8:9 - use_super_parameters
+   info - The variable name '_InfoRow' isn't a lowerCamelCase identifier - lib\features\profile\screens\profile_screen.dart:184:10 - non_constant_identifier_names
+   info - The variable name '_PreferenceTile' isn't a lowerCamelCase identifier - lib\features\profile\screens\profile_screen.dart:223:10 - non_constant_identifier_names
+warning - Unused import: '../../../../shared/widgets/language_voice_widgets.dart' - lib\features\settings\screens\settings_screen.dart:4:8 - unused_import
+warning - Unused import: '../../../../shared/widgets/ndvi_gauge_widget.dart' - lib\features\settings\screens\settings_screen.dart:5:8 - unused_import
+warning - Unused import: '../../../../core/theme/app_theme.dart' - lib\features\settings\screens\settings_screen.dart:6:8 - unused_import
+   info - Constructors for public widgets should have a named 'key' parameter - lib\features\settings\screens\settings_screen.dart:12:9 - use_key_in_widget_constructors
+   info - Constructors for public widgets should have a named 'key' parameter - lib\features\settings\screens\settings_screen.dart:37:9 - use_key_in_widget_constructors
+   info - Constructors for public widgets should have a named 'key' parameter - lib\features\settings\screens\settings_screen.dart:72:9 - use_key_in_widget_constructors
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\features\settings\screens\settings_screen.dart:88:7 - deprecated_member_use
+   info - Constructors for public widgets should have a named 'key' parameter - lib\features\settings\screens\settings_screen.dart:100:9 - use_key_in_widget_constructors
+   info - Parameter 'key' could be a super parameter - lib\features\settings\screens\settings_screen.dart:131:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\supplier_dashboard\screens\supplier_home_screen.dart:9:9 - use_super_parameters
+  error - '_SupplierHomeScreenState.build' ('Widget Function(BuildContext, WidgetRef)') isn't a valid override of 'State.build' ('Widget Function(BuildContext)') - lib\features\supplier_dashboard\screens\supplier_home_screen.dart:166:10 - invalid_override
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\supplier_dashboard\screens\supplier_home_screen.dart:299:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\supplier_dashboard\screens\supplier_home_screen.dart:301:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\supplier_dashboard\screens\supplier_home_screen.dart:328:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\supplier_dashboard\screens\supplier_home_screen.dart:330:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\supplier_dashboard\screens\supplier_home_screen.dart:332:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\supplier_dashboard\screens\supplier_home_screen.dart:420:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\supplier_dashboard\screens\supplier_home_screen.dart:443:38 - deprecated_member_use
+  error - Invalid constant value - lib\features\supplier_dashboard\screens\supplier_home_screen.dart:540:24 - invalid_constant
+  error - Invalid constant value - lib\features\supplier_dashboard\screens\supplier_home_screen.dart:549:38 - invalid_constant
+   info - Parameter 'key' could be a super parameter - lib\features\supplier_dashboard\screens\supplier_home_screen.dart:608:9 - use_super_parameters
+warning - Unused import: '../../../../shared/widgets/language_voice_widgets.dart' - lib\features\weather\screens\weather_screen.dart:4:8 - unused_import
+warning - Unused import: '../../../../core/theme/app_theme.dart' - lib\features\weather\screens\weather_screen.dart:5:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\features\weather\screens\weather_screen.dart:11:9 - use_super_parameters
+  error - '_WeatherScreenState.build' ('Widget Function(BuildContext, WidgetRef)') isn't a valid override of 'State.build' ('Widget Function(BuildContext)') - lib\features\weather\screens\weather_screen.dart:30:10 - invalid_override
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\weather\screens\weather_screen.dart:320:38 - deprecated_member_use
+   info - Constructors for public widgets should have a named 'key' parameter - lib\features\weather\screens\weather_screen.dart:481:9 - use_key_in_widget_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\weather\screens\weather_screen.dart:689:46 - deprecated_member_use
+warning - Unused import: 'dart:convert' - lib\features\weather\services\weather_service.dart:1:8 - unused_import
+warning - Unused import: 'package:flutter_riverpod/flutter_riverpod.dart' - lib\features\weather\services\weather_service.dart:3:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\main.dart:35:9 - use_super_parameters
+warning - Unused import: 'package:flutter_riverpod/flutter_riverpod.dart' - lib\shared\widgets\kisan_widgets.dart:2:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\shared\widgets\kisan_widgets.dart:12:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\kisan_widgets.dart:65:31 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\shared\widgets\kisan_widgets.dart:83:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\kisan_widgets.dart:107:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\kisan_widgets.dart:110:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\kisan_widgets.dart:114:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\kisan_widgets.dart:117:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\kisan_widgets.dart:119:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\kisan_widgets.dart:120:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\kisan_widgets.dart:122:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\kisan_widgets.dart:123:39 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\shared\widgets\kisan_widgets.dart:176:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\kisan_widgets.dart:204:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\kisan_widgets.dart:220:77 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\kisan_widgets.dart:225:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\kisan_widgets.dart:231:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\kisan_widgets.dart:242:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\kisan_widgets.dart:290:76 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\shared\widgets\kisan_widgets.dart:308:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\kisan_widgets.dart:328:39 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\shared\widgets\kisan_widgets.dart:344:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\shared\widgets\language_voice_widgets.dart:6:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\shared\widgets\language_voice_widgets.dart:64:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\shared\widgets\language_voice_widgets.dart:93:9 - use_super_parameters
+warning - Unused import: '../../../../shared/widgets/kisan_widgets.dart' - lib\shared\widgets\loading_screen.dart:3:8 - unused_import
+warning - Unused import: '../../../../core/theme/app_theme.dart' - lib\shared\widgets\loading_screen.dart:4:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\shared\widgets\loading_screen.dart:7:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\shared\widgets\ndvi_gauge_widget.dart:11:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\ndvi_gauge_widget.dart:73:30 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\ndvi_gauge_widget.dart:197:27 - deprecated_member_use
+warning - Unused import: '../../../../core/theme/app_theme.dart' - lib\shared\widgets\no_internet_screen.dart:4:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\shared\widgets\no_internet_screen.dart:7:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\shared\widgets\offline_banner.dart:8:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\offline_banner.dart:19:36 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\offline_banner.dart:22:38 - deprecated_member_use
+
